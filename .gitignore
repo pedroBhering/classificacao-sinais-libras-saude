@@ -1,0 +1,30 @@
+#Ambientes virtuais e arquivos temporários
+env_*/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+#Vídeos originais
+BSL10/
+*.mp4
+
+#Keypoints (disponibilizados separadamente, ver README)
+keypoints_data/
+keypoints_data_augmented/
+keypoints_data_ale_fri/
+keypoints_data_ale_fri_original/
+keypoints_data_test/
+
+#Dados gerados pelos scripts e notebooks
+BSL10_frames/
+BSL10_frames_sorted/
+BSL10_frames_augmented/
+BSL10_ale_fri_aug/
+keypoints_data_test_sorted/
+keypoints_data_ale_fri_test/
+dataset_ale_fri/
+
+#Arquivos compactados
+*.zip
