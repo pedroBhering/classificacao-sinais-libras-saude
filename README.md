@@ -35,7 +35,7 @@ Os experimentos do trabalho foram executados em CPU (Intel Core i5-10300H, 16 GB
 
 ## Dados
 
-Os keypoints (marcos) de todos os quadros dos vídeos são disponibilizados separadamente, juntamente com vídeos de exemplo dos sinais feitos pelo autor do trabalho: https://drive.google.com/drive/folders/1oxThRrIKD-KX2nFlai2Zg_fl44xwPffg?usp=sharing. **Os vídeos originais não são publicados.**
+Os keypoints (marcos) de todos os quadros dos vídeos são disponibilizados separadamente, juntamente com vídeos de exemplo dos sinais feitos pelo autor do trabalho: https://drive.google.com/drive/folders/1oxThRrIKD-KX2nFlai2Zg_fl44xwPffg?usp=sharing. **Os vídeos originais não serão publicados.**
 
 **Observação:** como o autor não é fluente em Libras, algumas execuções podem não corresponder exatamente à forma correta dos sinais. Os dados servem para reproduzir o pipeline e os experimentos e para demonstrar, de maneira aproximada, como os sinais são realizados, não como referência linguística de Libras.
 
@@ -49,7 +49,7 @@ Depois de baixar, as pastas devem ficar na raiz do repositório:
 | `keypoints_data_ale_fri_original` | todos os quadros dos vídeos de Alergia e Frieira, sem transformações (validação do especialista) |
 | `keypoints_data_test` | todos os quadros dos 60 vídeos do conjunto de teste adicional (6 por sinal) |
 
-**Obs.: Caso deseje, é possível montar o seu próprio conjunto de dados e realizar o passo a passo de execução para obter os próprios resultados.** 
+**Observação:** Caso deseje, é possível montar o seu próprio conjunto de dados e realizar o passo a passo de execução para obter os próprios resultados. 
 
 ## Como executar
 
